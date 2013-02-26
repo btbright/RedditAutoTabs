@@ -5,4 +5,4 @@ var links = document.querySelectorAll(".entry a.title");
   urls.push(link.getAttribute("href"));
 });
 
-chrome.extension.sendRequest(urls);
+chrome.extension.sendMessage({urls:urls});

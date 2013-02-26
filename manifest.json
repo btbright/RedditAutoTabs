@@ -1,0 +1,14 @@
+{
+  "name": "RedditAutoTabs",
+  "version": "1.1",
+  "description": "Open all links on the page in new tabs",
+	"page_action": {
+			    "default_icon": "icon.gif",
+			    "default_title": "Open all links on this page in new tabs"
+	},
+	"permissions": [
+					  "tabs",
+					  "http://*.reddit.com/"
+					],
+	"background_page": "background.html"
+}
